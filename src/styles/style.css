@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: rgb(73, 4, 4);
 }
 
 @font-face {
@@ -12,7 +13,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: brown;
     font-family: 'FixedSys';
     background-color: darkgoldenrod;
     width: 100vw;
@@ -30,7 +30,7 @@
     outline: none;
     width: 100px;
   height: 30px;
-  border: 2px solid #000;
+  border: 2px solid rgb(73, 4, 4);
   background: transparent;
   transition: all 0.3s ease;
   position: relative;
@@ -39,7 +39,7 @@
 
 .headingButton:hover{
     background: transparent;
-    color: #000;
+    color: rgb(73, 4, 4);
   }
   .headingButton span {
     position: relative;
@@ -53,7 +53,7 @@
     content: "";
     left: 0;
     top: 0;
-    background: #000;
+    background: rgb(73, 4, 4);
     transition: all 0.3s ease;
   }
   .headingButton:before {
@@ -76,7 +76,7 @@
     content: "";
     right: 0;
     bottom: 0;
-    background: #000;
+    background: rgb(73, 4, 4);
     transition: all 0.3s ease;
   }
   .headingButton span:before {
@@ -96,7 +96,33 @@
 
 
 .main {
-    background-color: beige;
+    background-color: #B86E03;
     height: 80vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(73, 4, 4);
+}
+
+.welcomeMessage {
+    margin: 20px;
+
+}
+
+.adText {
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: darkgoldenrod;
 }

@@ -15,15 +15,12 @@ function headerGenerator() {
     headingMenu.setAttribute('id', 'headingMenu')
     header.appendChild(headingMenu)
 
-    console.log(headingMenu)
-
     return header;
 }
 
 
 function buttonGenerator() {
     let menuVar = document.getElementById('headingMenu')
-    console.log(menuVar)
     let homeBtn = document.createElement('button')
     homeBtn.innerHTML = "Home"
     homeBtn.classList.add('headingButton')
@@ -40,7 +37,16 @@ function buttonGenerator() {
     menuVar.appendChild(contactBtn) 
 }
 
+function footerGenerator() {
+    let content = document.getElementById('content')
+    const footer = document.createElement('div')
+    footer.classList.add('footer')
+    footer.innerHTML = "antero 2023"
+    content.appendChild(footer)
+}
+
 export {
     headerGenerator,
-    buttonGenerator
+    buttonGenerator,
+    footerGenerator
 };
