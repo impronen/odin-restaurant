@@ -10,11 +10,93 @@
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     color: brown;
     font-family: 'FixedSys';
     background-color: darkgoldenrod;
     width: 100vw;
     height: 10vh;
+}
+
+.headingMenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headingButton {
+    margin: 20px;
+    outline: none;
+    width: 100px;
+  height: 30px;
+  border: 2px solid #000;
+  background: transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.headingButton:hover{
+    background: transparent;
+    color: #000;
+  }
+  .headingButton span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .headingButton:before,
+  .headingButton:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #000;
+    transition: all 0.3s ease;
+  }
+  .headingButton:before {
+    height: 0%;
+    width: 2px;
+  }
+  .headingButton:after {
+    width: 0%;
+    height: 2px;
+  }
+  .headingButton:hover:before {
+    height: 100%;
+  }
+  .headingButton:hover:after {
+    width: 100%;
+  }
+  .headingButton span:before,
+  .headingButton span:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #000;
+    transition: all 0.3s ease;
+  }
+  .headingButton span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .headingButton span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .headingButton span:hover:before {
+    height: 100%;
+  }
+  .headingButton span:hover:after {
+    width: 100%;
+  }
+
+
+.main {
+    background-color: beige;
+    height: 80vh;
+    width: 100vw;
 }
