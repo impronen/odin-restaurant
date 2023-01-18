@@ -1,6 +1,7 @@
-
+import {pageScrubber} from '../functions/reusableFunctions';
 
 function mainPageGenerator() {
+    
     const mainPageContent = document.createElement('div')
     mainPageContent.classList.add('main')
     mainPageContent.setAttribute('id', 'mainContent')
@@ -8,6 +9,7 @@ function mainPageGenerator() {
 }
 
 function messageGenerator() {
+    pageScrubber()
     let content = document.getElementById('mainContent')
     const welcomeMessage = document.createElement('div')
     welcomeMessage.classList.add('welcomeMessage')

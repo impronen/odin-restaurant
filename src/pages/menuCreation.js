@@ -21,19 +21,26 @@ function headerGenerator() {
 
 function buttonGenerator() {
     let menuVar = document.getElementById('headingMenu')
+
     let homeBtn = document.createElement('button')
     homeBtn.innerHTML = "Home"
     homeBtn.classList.add('headingButton')
+    homeBtn.setAttribute('id', 'homeBtn')
     menuVar.appendChild(homeBtn)
+/*     homeBtn.addEventListener('click', function(){
+        console.log("Working?")
+    }) */
     
     const menuBtn = document.createElement('button')
     menuBtn.innerHTML = "Menu"
     menuBtn.classList.add('headingButton')
+    menuBtn.setAttribute('id', 'menuBtn')
     menuVar.appendChild(menuBtn)
 
     const contactBtn = document.createElement('button')
     contactBtn.innerHTML = "Contact"
     contactBtn.classList.add('headingButton')
+    contactBtn.setAttribute('id', 'contactBtn')
     menuVar.appendChild(contactBtn) 
 }
 

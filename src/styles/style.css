@@ -103,7 +103,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(73, 4, 4);
 }
 
 .welcomeMessage {
@@ -117,6 +116,24 @@
     text-align: center;
 }
 
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.menucard {
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: beige;
+}
 
 .footer{
     display: flex;
