@@ -2,6 +2,7 @@ import './styles/style.css';
 import {headerGenerator, buttonGenerator, footerGenerator} from './pages/menuCreation';
 import {mainPageGenerator, messageGenerator} from './pages/mainPage'
 import {menuGenerator, menuPopulator} from './pages/menu'
+import {contactPageGenerator} from './pages/contact'
 import {menu} from './data/menuData'
 
 let content = document.getElementById('content');
@@ -28,5 +29,5 @@ menuBtn.addEventListener('click', function(){
 
 const contactBtn = document.getElementById('contactBtn')
 contactBtn.addEventListener('click', function(){
-    console.log(menu)
+    contactPageGenerator()
 })
