@@ -18,7 +18,7 @@ const menu = {
         {
             "Name": "Vegan Sheperd's Pie",
             "price": "8£",
-            "description" : "Famous meat dish made for vegans!"
+            "description" : "Famous meat dish - now for vegans"
         },
         {
             "Name": "Spam Sandwich",
