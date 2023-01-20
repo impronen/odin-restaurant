@@ -17,12 +17,12 @@ function messageGenerator() {
     content.appendChild(welcomeMessage)
 
     const adText = document.createElement('div')
-    adText.classList.add('adText')
+    adText.classList.add('moreText')
     adText.innerHTML = '<h3>The place for mediocre ale, depressing pub food and frequent fights.</h3>'
     content.appendChild(adText)
 
     const adText2 = document.createElement('div')
-    adText2.classList.add('adText')
+    adText2.classList.add('moreText')
     adText2.innerHTML = '<p>Step in and experience the utter bleariness of life in Britain.</p>'
     content.appendChild(adText2)
 }
