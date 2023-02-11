@@ -1,12 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    color: rgb(73, 4, 4);
+  margin: 0;
+  padding: 0;
+  color: rgb(73, 4, 4);
 }
 
 @font-face {
-    font-family: 'FixedSys';
-    src: url('../fonts/Fixedsys.ttf') format('ttf')
+  font-family: "FixedSys";
+  src: url("../fonts/Fixedsys.ttf") format("ttf");
 }
 
 h2 {
@@ -14,25 +14,25 @@ h2 {
 }
 
 .header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'FixedSys';
-    background-color: darkgoldenrod;
-    width: 100vw;
-    height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "FixedSys";
+  background-color: darkgoldenrod;
+  width: 100vw;
+  height: 10vh;
 }
 
 .headingMenu {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .headingButton {
-    margin: 20px;
-    outline: none;
-    width: 100px;
+  margin: 20px;
+  outline: none;
+  width: 100px;
   height: 30px;
   border: 2px solid rgb(73, 4, 4);
   background: transparent;
@@ -41,83 +41,81 @@ h2 {
   display: inline-block;
 }
 
-.headingButton:hover{
-    background: transparent;
-    color: rgb(73, 4, 4);
-  }
-  .headingButton span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .headingButton:before,
-  .headingButton:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    background: rgb(73, 4, 4);
-    transition: all 0.3s ease;
-  }
-  .headingButton:before {
-    height: 0%;
-    width: 2px;
-  }
-  .headingButton:after {
-    width: 0%;
-    height: 2px;
-  }
-  .headingButton:hover:before {
-    height: 100%;
-  }
-  .headingButton:hover:after {
-    width: 100%;
-  }
-  .headingButton span:before,
-  .headingButton span:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    bottom: 0;
-    background: rgb(73, 4, 4);
-    transition: all 0.3s ease;
-  }
-  .headingButton span:before {
-    width: 2px;
-    height: 0%;
-  }
-  .headingButton span:after {
-    width: 0%;
-    height: 2px;
-  }
-  .headingButton span:hover:before {
-    height: 100%;
-  }
-  .headingButton span:hover:after {
-    width: 100%;
-  }
-
+.headingButton:hover {
+  background: transparent;
+  color: rgb(73, 4, 4);
+}
+.headingButton span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.headingButton:before,
+.headingButton:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgb(73, 4, 4);
+  transition: all 0.3s ease;
+}
+.headingButton:before {
+  height: 0%;
+  width: 2px;
+}
+.headingButton:after {
+  width: 0%;
+  height: 2px;
+}
+.headingButton:hover:before {
+  height: 100%;
+}
+.headingButton:hover:after {
+  width: 100%;
+}
+.headingButton span:before,
+.headingButton span:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgb(73, 4, 4);
+  transition: all 0.3s ease;
+}
+.headingButton span:before {
+  width: 2px;
+  height: 0%;
+}
+.headingButton span:after {
+  width: 0%;
+  height: 2px;
+}
+.headingButton span:hover:before {
+  height: 100%;
+}
+.headingButton span:hover:after {
+  width: 100%;
+}
 
 .main {
-    background-color: #B86E03;
-    height: 80vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #b86e03;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcomeMessage {
-    margin: 20px;
-
+  margin: 20px;
 }
 
 .moreText {
-    padding: 20px;
-    width: 25%;
-    text-align: center;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
 }
 
 .menuHeading {
@@ -176,11 +174,11 @@ h2 {
   overflow-wrap: break-word;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 10vh;
-    background-color: darkgoldenrod;
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: darkgoldenrod;
 }
